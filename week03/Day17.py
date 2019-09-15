@@ -1,0 +1,31 @@
+thistuple = ("apple", "banana", "cheery")
+if "apple" in thistuple:
+    print("yes,'apple' is in the fruits tuple")
+
+
+thistuple = ("بايثون",) *4
+print(thistuple)
+
+
+thistuple1 = [1, 2, 3, ]
+thistuple2 = [5, 6]
+thistuple = thistuple1 + thistuple2
+print(thistuple)
+
+
+x = (3, 4, 5, 6)
+x = x + (1, 2, 3)
+print(x)
+
+
+
+thistuple = ("apple", "banana", "cheery")
+print(len(thistuple))
+
+
+thistuple = tuple(("apple", "banana", "cheery"))
+print(thistuple)
+
+thistuple = [3, 4, 5, "A", "B"]
+thistuple = tuple(thistuple)
+print(thistuple)
